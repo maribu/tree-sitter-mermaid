@@ -771,6 +771,21 @@
     }
   },
   {
+    "type": "diagram_packet",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "packet_field",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "diagram_pie",
     "named": true,
     "fields": {},
@@ -1950,6 +1965,30 @@
     "fields": {}
   },
   {
+    "type": "packet_field",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "packet_field_bits",
+          "named": true
+        },
+        {
+          "type": "packet_field_label",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "packet_field_bits",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "pie_label",
     "named": true,
     "fields": {}
@@ -2492,6 +2531,10 @@
           "named": true
         },
         {
+          "type": "diagram_packet",
+          "named": true
+        },
+        {
           "type": "diagram_pie",
           "named": true
         },
@@ -2737,6 +2780,10 @@
     "type": "title",
     "named": true,
     "fields": {}
+  },
+  {
+    "type": "\"",
+    "named": false
   },
   {
     "type": "%%{",
@@ -3138,6 +3185,14 @@
   {
     "type": "o|",
     "named": false
+  },
+  {
+    "type": "packet",
+    "named": false
+  },
+  {
+    "type": "packet_field_label",
+    "named": true
   },
   {
     "type": "par",
