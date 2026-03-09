@@ -2468,6 +2468,10 @@
       "required": true,
       "types": [
         {
+          "type": "config",
+          "named": true
+        },
+        {
           "type": "diagram_class",
           "named": true
         },
@@ -2990,6 +2994,10 @@
     "type": "comment",
     "named": true,
     "extra": true
+  },
+  {
+    "type": "config",
+    "named": true
   },
   {
     "type": "dateformat",
